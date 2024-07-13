@@ -1,0 +1,112 @@
+/* .portfolios{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20%;
+    
+} */
+ /* .portfolios{
+    display: flex;
+ }
+ body{
+    background-color: black;
+ } */
+
+
+
+.info-2{
+   display: flex;
+   margin-left: 7%;
+   /* display: inline-block; */
+}
+.portfolio{
+   display: flex;
+}.details{
+   margin: 1%;
+    border: solid #071739;
+    box-shadow: 0 4px 8px  #071739; 
+    transition: box-shadow 0.3s ease;
+    max-width: 40%;
+    background: linear-gradient(transparent,#071739);
+    gap: 100px;
+    
+
+}
+
+  
+
+.details:hover {
+    transform: scale(1.05);
+  }
+.pictures{
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+    margin-top: 11%;
+    margin-left:8%;
+
+}
+h2{
+    
+    font-size: 20px;
+  
+    color: white;
+    text-align: left;
+}
+.personal-statement{
+    
+   
+   
+    color: #071739;
+    text-align: justify;
+    margin-right: 5%;
+
+}
+.tech-skills{
+    display: flex;
+}
+ul{
+    font-size: 20px;
+    color: #071739;
+    width: 72%;
+}
+.contact{
+    font-size: 20px;
+    color: #071739;
+}
+.Akirachix{
+    font-size: 20px;
+    color: white;
+
+}
+p{
+
+    font-size: 15px;
+}
+
+#skills{
+    font-size: 15px;
+    color: azure;
+
+}
+.education{
+    display:grid;
+    margin-bottom: 70px;
+    margin-left: 10px;
+}
+.title{
+    display: flex;
+}
+.details-2{
+   margin: 1%;
+   border: solid #071739;
+   box-shadow: 0 4px 8px  #071739; 
+   transition: box-shadow 0.3s ease;
+   max-width: 40%;
+   background: linear-gradient(transparent,#071739);
+   gap: 100px;
+   
+}
+
