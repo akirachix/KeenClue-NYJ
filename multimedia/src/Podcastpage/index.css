@@ -1,0 +1,437 @@
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+   
+}
+h2{
+    text-align: center;
+    margin-top: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h3{
+    font-size: 40px;
+    color: #B29AFA;
+    margin-top: 10%;
+    line-height: 1.8;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin-left: 4%;
+}
+p{
+    margin-left: 7%;
+    width: 60%;
+    line-height: 2.0;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h4{
+    margin-left: 5%;
+}
+.content{
+    display: flex;
+    gap: 20%;
+    margin-top: 5%;
+}
+.mic{
+    width: 200px;
+    margin-left: 50%;
+}
+.hero{
+    display: flex;
+    gap: 5%;
+    margin-left: 6%;
+}
+.pod{
+    width: 500px;
+    margin-left: -40%;
+}
+.mic2{
+    width: 200px;
+    margin-left: 50%;
+}
+
+.text{
+   margin-top: 5%;
+}
+
+.firstset{
+    gap: 10%;
+    display: flex;
+    justify-content: center;
+    margin-left: -10%;
+}
+.playicons{
+    margin-top: -20%;
+    
+}
+.secondset{
+    gap: 10%;
+    display: flex;
+    justify-content: center;
+    margin-left: -10%;
+    margin-top: -5%;
+}
+
+@media screen and (min-width:0px) and (max-width:280px){
+    .firstset{
+        flex-wrap: wrap;
+        margin-left: 80%;
+        margin-top: 20%;
+    }
+    .secondset{
+        flex-wrap: wrap;
+        margin-left: 80%;
+        margin-top: 10%;
+    }
+    h1{
+      margin-left: 80%;
+
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h2{
+     margin-top: 10%;
+        margin-top: 5%;
+        width: 200%;
+      
+    }
+    h4{
+       margin-left: 30%;
+    }
+    p{
+        margin-left: 20%;
+    }
+    .text{
+        margin-top: 5%;
+        width: 50%;
+     }
+     p{
+        width: 80%;
+     }
+     .content{
+        flex-wrap: wrap;
+     }
+     .playicons{
+        margin-left: 10%;
+     }
+     .mic{
+        margin-left: 35%;
+     }
+     .mic2{
+        margin-left: 35%;
+     }
+     .playicons{
+        margin-left: 5%;
+     }
+}
+@media screen and (min-width:281px) and (max-width:375px){
+    .firstset{
+        flex-wrap: wrap;
+        margin-left: 5%;
+        margin-top: 20%;
+    }
+    .secondset{
+        flex-wrap: wrap;
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+    .content{
+        flex-wrap: wrap;
+    }
+    .mic{
+        margin-left: 45%;
+    }
+    .mic2{
+        margin-left: 45%;
+    }
+    h4{
+        margin-left: 30%;
+    }
+    p{
+        margin-left: 15%;
+    }
+    h1{
+        margin-left: 5%;
+       
+
+  
+          font-family: Arial, Helvetica, sans-serif;
+      }
+      h2{
+       margin-top: 10%;
+          margin-top: 5%;
+          width: 120%;
+          margin-left: -9%;
+          font-size: large;
+        
+      }
+      p{
+        width: 80%;
+     }
+     .playicons{
+        margin-left: 3%;
+     }
+     
+}
+@media screen and (min-width:391px) and (max-width:414px){
+    .firstset{
+        flex-wrap: wrap;
+        margin-left: 5%;
+        margin-top: 20%;
+    }
+    .secondset{
+        flex-wrap: wrap;
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+    h1{
+        margin-left: 0%;
+  
+          font-family: Arial, Helvetica, sans-serif;
+      }
+      h2{
+       margin-top: 10%;
+          margin-top: 5%;
+          width: 100%;
+          margin-left: 0%;
+        
+      }
+      h4{
+        margin-left: 20%;
+       
+      }
+      p{
+
+        width: 80%;
+     }
+     .content{
+        flex-wrap: wrap;
+    }
+    
+    .mic{
+        margin-left: 40%;
+    }
+   .mic2{
+    margin-left: 40%;
+   }
+}
+@media screen and (min-width:376px) and (max-width:390px){
+    .firstset{
+        flex-wrap: wrap;
+        margin-left: 5%;
+        margin-top: 20%;
+    }
+    .secondset{
+        flex-wrap: wrap;
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+    h1{
+        margin-left: 0%;
+  
+          font-family: Arial, Helvetica, sans-serif;
+      }
+      h2{
+       margin-top: 10%;
+          margin-top: 5%;
+          width: 100%;
+          margin-left: 0%;
+          font-size: large;
+        
+      }
+      h4{
+        margin-left: 27%;
+       
+      }
+      p{
+        margin-left: 15%;
+        width: 80%;
+     }
+     .content{
+        flex-wrap: wrap;
+    }
+    .mic{
+        margin-left: 35%;
+        
+    }
+    .mic2{
+        margin-left: 35%;
+    }
+    .playicons{
+     
+    }
+
+
+}
+
+@media screen and (min-width:415px) and (max-width:430px){
+    .firstset{
+        flex-wrap: wrap;
+        margin-left: 5%;
+        margin-top: 20%;
+    }
+    .secondset{
+        flex-wrap: wrap;
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+    h1{
+        margin-left: 0%;
+  
+          font-family: Arial, Helvetica, sans-serif;
+      }
+      h2{
+       margin-top: 10%;
+          margin-top: 5%;
+          width: 100%;
+          margin-left: 0%;
+        
+      }
+      h4{
+        margin-left: 30%;
+       
+      }
+      p{
+        margin-left: 15%;
+        width: 80%;
+     }
+     .content{
+        flex-wrap: wrap;
+    }
+    .mic{
+        margin-left: 45%;
+    }
+    .mic2{
+        margin-left: 45%;
+    }
+    .playicons{
+        margin-left: 5%;
+    }
+
+}
+@media screen and (min-width:432px) and (max-width:540px){
+    .firstset{
+        flex-wrap: wrap;
+        margin-left: 5%;
+        margin-top: 20%;
+    }
+    .secondset{
+        flex-wrap: wrap;
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+    h1{
+        margin-left: -10%;
+  
+          font-family: Arial, Helvetica, sans-serif;
+      }
+      h2{
+       margin-top: 10%;
+          margin-top: 5%;
+          width: 100%;
+          margin-left: -7%;
+        
+      }
+      h4{
+        margin-left: 25%;
+       
+      }
+      p{
+        margin-left: 3%;
+        width: 80%;
+     }
+     .content{
+        flex-wrap: wrap;
+    }
+    .mic{
+        margin-left: 50%;
+    }
+    .mic2{
+        margin-left: 50%;
+    }
+    .playicons{
+        margin-left: 5%;
+    }
+
+}
+@media screen and (min-width:753px) and (max-width:895px){
+    .firstset{
+        flex-wrap: wrap;
+        margin-left: 5%;
+        margin-top: 20%;
+    }
+    .secondset{
+        flex-wrap: wrap;
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+    h1{
+        margin-left: 0%;
+  
+          font-family: Arial, Helvetica, sans-serif;
+      }
+      h2{
+       margin-top: 10%;
+          margin-top: 5%;
+          width: 100%;
+          margin-left: 0%;
+        
+      }
+      h4{
+       
+      }
+      p{
+        width: 80%;
+     }
+    
+    .mic{
+        margin-left: 30%;
+    }
+    .mic2{
+        margin-left: 30%;
+    } 
+    .playicons{
+        margin-left: -10%;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1200px){
+    .firstset{
+        flex-wrap: wrap;
+        margin-left: 5%;
+        margin-top: 20%;
+    }
+    .secondset{
+        flex-wrap: wrap;
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+    h1{
+        margin-left: 0%;
+  
+          font-family: Arial, Helvetica, sans-serif;
+      }
+      h2{
+       margin-top: 10%;
+          margin-top: 5%;
+          width: 100%;
+          margin-left: 0%;
+        
+      }
+      p{
+        width: 80%;
+     }
+    
+    .mic{
+        margin-left: 30%;
+    }
+    .mic2{
+        margin-left: 30%;
+    } 
+    .playicons{
+        margin-left: -10%;
+    }
+}
+
+
+
