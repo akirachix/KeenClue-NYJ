@@ -1,34 +1,33 @@
-/* .portfolios{
+/* 
+
+
+.info{
     display: flex;
-    flex-wrap: wrap;
-    margin-left: 20%;
-    
-} */
- /* .portfolios{
-    display: flex;
- }
- body{
-    background-color: black;
- } */
-
-
-
+    margin-left: 14%;
+    object-fit: cover;
+    margin-top: 0%;
+}
 .info-2{
    display: flex;
-   margin-left: 7%;
-   /* display: inline-block; */
+   margin-left: 11%;
+   object-fit: cover;
+   margin-top: 0%;
+ 
 }
 .portfolio{
    display: flex;
+   margin-top: 0%;
+   object-fit: cover;
 }.details{
-   margin: 1%;
+ 
     border: solid #071739;
     box-shadow: 0 4px 8px  #071739; 
     transition: box-shadow 0.3s ease;
-    max-width: 40%;
+    width: 27%;
     background: linear-gradient(transparent,#071739);
-    gap: 100px;
-    
+    gap: 200px;
+    object-fit: cover;
+    margin-top: 0%;
 
 }
 
@@ -38,39 +37,41 @@
     transform: scale(1.05);
   }
 .pictures{
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     border: none;
     border-radius: 20px;
     position: relative;
     z-index: 1;
+    gap: 5%;
     margin-top: 11%;
     margin-left:8%;
+    margin-top: 0%;
 
 }
 h2{
     
     font-size: 20px;
   
-    color: white;
+    color: #071739;
     text-align: left;
+    margin-top: 0%;
 }
 .personal-statement{
-    
-   
-   
     color: #071739;
     text-align: justify;
     margin-right: 5%;
+    margin-top: 0%;
 
 }
 .tech-skills{
     display: flex;
+    margin-top: 0%;
 }
 ul{
     font-size: 20px;
     color: #071739;
-    width: 72%;
+    width: 60%;
 }
 .contact{
     font-size: 20px;
@@ -79,6 +80,8 @@ ul{
 .Akirachix{
     font-size: 20px;
     color: white;
+    margin-left: 0%;
+    margin-top: 0%;
 
 }
 p{
@@ -95,6 +98,7 @@ p{
     display:grid;
     margin-bottom: 70px;
     margin-left: 10px;
+    margin-top: 0%;
 }
 .title{
     display: flex;
@@ -107,6 +111,144 @@ p{
    max-width: 40%;
    background: linear-gradient(transparent,#071739);
    gap: 100px;
+   margin-top: 0%;
    
 }
+.heading{
+    text-align: center;
+    margin-top: 0%;
+}
 
+
+
+
+
+
+
+
+
+
+ */
+ .info, .info-2, .portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .details, .details-2 {
+    width: 30%;
+    margin: 10px;
+    border: solid #071739;
+    box-shadow: 0 4px 8px #071739;
+    transition: box-shadow 0.3s ease;
+    background: linear-gradient(transparent, #071739);
+  }
+  
+  .details:hover {
+    transform: scale(1.05);
+  }
+  
+  .pictures {
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
+    margin: 20px auto;
+    display: block;
+
+  }
+  
+  h2 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .personal-statement {
+    color: #071739;
+    text-align: justify;
+    margin: 10px;
+  }
+  
+  .tech-skills {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  ul {
+    font-size: 20px;
+    color: #071739;
+    width: 45%;
+    margin: 0 10px;
+  }
+  
+  .contact, .Akirachix {
+    font-size: 20px;
+    color: #071739;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  p {
+    font-size: 15px;
+    margin: 10px;
+  }
+  
+  #skills {
+    font-size: 15px;
+    color: azure;
+    margin: 10px;
+  }
+  
+  .education {
+    display: grid;
+    margin-bottom: 70px;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  
+  .title {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .details-2 {
+    margin: 10px;
+    border: solid #071739;
+    box-shadow: 0 4px 8px #071739;
+    transition: box-shadow 0.3s ease;
+    background: linear-gradient(transparent, #071739);
+  }
+  
+  .heading {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 767px) {
+    .details, .details-2 {
+      width: 90%;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .details, .details-2 {
+      width: 45%;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .details, .details-2 {
+      width: 30%;
+    }
+  }
+  @media (min-width: 1280px) {
+    .details, .details-2 {
+      width: 35%;
+    }
+  }

@@ -19,7 +19,7 @@ import "./index.css"
 
 function Gitahi(){
     return(
-        <div className="info-2">
+        
         <div className="info">
            <div className="details">
             <div className="title">
@@ -59,10 +59,11 @@ function Gitahi(){
                    in ensuring seamless integration and interoperability 
                    among different health monitoring systems and electronic 
                    health records. As a software developer, Teresia envisions */}
-                    a future where cutting-edge technologies enhance the integration
+                    {/* a future where cutting-edge technologies enhance the integration
                      and accessibility of health data, providing healthcare 
                      professionals with comprehensive, actionable insights
-                      to provide more personalized care to patients. .</p></div>
+                      to provide more personalized care to patients. . */}
+                      </p></div>
                 <div className="skills">
 
 <h2>Skills</h2>
@@ -72,8 +73,8 @@ function Gitahi(){
 
 <li>Skilled in HTML, CSS, and JavaScript for building dynamic web applications.</li>
 <li> Extensive experience with modern JavaScript frameworks and libraries (e.g., React).</li>
-<li>Proficiency in responsive web design and cross-browser compatibility.</li>
-<li>Proficiency in using design tools such as Figma, Sketch, and Adobe Creative Suite.</li>
+{/* <li>Proficiency in responsive web design and cross-browser compatibility.</li>
+<li>Proficiency in using design tools such as Figma, Sketch, and Adobe Creative Suite.</li> */}
 {/* <li>Ability to design and implement robust, scalable, and maintainable software systems.</li>
 <li>Proficiency in software development lifecycle methodologies (e.g., Agile)</li>
 <li>Proficiency in user research methods (e.g., interviews, usability testing, surveys)</li>
@@ -124,10 +125,11 @@ function Gitahi(){
                    in ensuring seamless integration and interoperability 
                    among different health monitoring systems and electronic 
                    health records. As a software developer, Teresia envisions */}
-                    a future where cutting-edge technologies enhance the integration
+                    {/* a future where cutting-edge technologies enhance the integration
                      and accessibility of health data, providing healthcare 
                      professionals with comprehensive, actionable insights
-                      to provide more personalized care to patients. .</p></div>
+                      to provide more personalized care to patients. . */}
+                      </p></div>
                 <div className="skills">
 
 <h2>Skills</h2>
@@ -137,8 +139,8 @@ function Gitahi(){
 
 <li>Skilled in HTML, CSS, and JavaScript for building dynamic web applications.</li>
 <li> Extensive experience with modern JavaScript frameworks and libraries (e.g., React).</li>
-<li>Proficiency in responsive web design and cross-browser compatibility.</li>
-<li>Proficiency in using design tools such as Figma, Sketch, and Adobe Creative Suite.</li>
+{/* <li>Proficiency in responsive web design and cross-browser compatibility.</li>
+<li>Proficiency in using design tools such as Figma, Sketch, and Adobe Creative Suite.</li> */}
 {/* <li>Ability to design and implement robust, scalable, and maintainable software systems.</li>
 <li>Proficiency in software development lifecycle methodologies (e.g., Agile)</li>
 <li>Proficiency in user research methods (e.g., interviews, usability testing, surveys)</li>
@@ -155,6 +157,7 @@ function Gitahi(){
         </div>
         
         
-</div>
+
+
 )}
 export default Gitahi;
